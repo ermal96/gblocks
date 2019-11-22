@@ -1,12 +1,12 @@
 .inline__block_container {
 	display: flex;
 	align-items: center;
-	min-height: 25rem;
+	min-height: 20rem;
 	justify-content: space-between;
 }
 
 .inline__block-content {
-	width: 65%;
+	width: 60%;
 	padding: 10px 20px;
 }
 .inline__block-title {
@@ -17,8 +17,13 @@
 	position: relative;
 	width: 35%;
 	img {
-		min-height: 25rem;
+		min-height: 20rem;
 		height: 100%;
 		object-fit: cover;
 	}
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
 }

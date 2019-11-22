@@ -9,12 +9,12 @@
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  min-height: 25rem;
+  min-height: 20rem;
   -ms-flex-pack: justify;
       justify-content: space-between; }
 
 .inline__block-content {
-  width: 65%;
+  width: 60%;
   padding: 10px 20px; }
 
 .inline__block-title {
@@ -25,7 +25,11 @@
   position: relative;
   width: 35%; }
   .inline__block-image img {
-    min-height: 25rem;
+    min-height: 20rem;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important; }
