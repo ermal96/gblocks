@@ -1,0 +1,31 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.inline__block_container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 25rem;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.inline__block-content {
+  width: 65%;
+  padding: 10px 20px; }
+
+.inline__block-title {
+  font-size: 3rem;
+  margin: 4rem auto 3rem !important; }
+
+.inline__block-image {
+  position: relative;
+  width: 35%; }
+  .inline__block-image img {
+    min-height: 25rem;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }

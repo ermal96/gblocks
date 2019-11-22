@@ -1,0 +1,24 @@
+.inline__block_container {
+	display: flex;
+	align-items: center;
+	min-height: 25rem;
+	justify-content: space-between;
+}
+
+.inline__block-content {
+	width: 65%;
+	padding: 10px 20px;
+}
+.inline__block-title {
+	font-size: 3rem;
+	margin: 4rem auto 3rem !important;
+}
+.inline__block-image {
+	position: relative;
+	width: 35%;
+	img {
+		min-height: 25rem;
+		height: 100%;
+		object-fit: cover;
+	}
+}
